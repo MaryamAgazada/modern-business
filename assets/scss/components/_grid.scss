@@ -1,0 +1,14 @@
+.container{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+@media screen and (max-width : 930px) {
+    .col-12{
+        width: 100%;
+    }
+}

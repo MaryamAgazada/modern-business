@@ -1,0 +1,114 @@
+.main__contact{
+    // height: 100vh;
+    // display: flex;
+    // // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // max-width:100%;
+    // background-size: cover;
+    // position: relative;
+    // flex-direction: column;
+    // color: white;
+    // object-fit: cover;
+    max-width:100%;
+    min-height:1147px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: cover;
+    .getTouch-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0d6efd;
+        min-height: 48px;
+        width: 48px;
+        border-radius: 5px;
+        margin: 0 0 16px;
+        i{
+            font-size: 24px;
+            color: white;
+        }
+
+    }
+    .getTouch__title{
+        font-size: 40px;
+        margin: 0 0 8px;
+    }
+    .getTouch__text{
+       font-size: 20px;
+       color: #6c757d;
+       padding-bottom: 3rem;
+}
+    .form{
+        width: 100%;
+        max-width: 589px;
+        min-height: 492px;
+    //    display: flex;
+    //    flex-direction: column;
+    //    align-items: flex-start;
+    //    justify-content: center;
+       padding: 0 24px;
+       input{
+        width: 100%;
+        min-height:72px;
+        max-width:589px;
+        font-size:20px;
+        border:1px solid #6c757d;
+        padding: 16px 22px;
+        display: block; 
+        line-height: 1.25; 
+        color: #6c757d;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 5px;
+   
+}
+.message{
+    height: 192px;
+}
+    .send{
+        background-color:#0d6efd;
+        color: white;
+    border: 1px solid #0d6efd;
+    /* max-width: ; */
+    padding: 16px;
+    // font-size: 1.25rem;
+   padding:16px 25px;
+    margin-top: 25px;
+    font-weight: 800;
+    }
+}
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .main__contact {
+      max-width: 100%;
+      padding: 0 20px; 
+    }
+    .main_contact
+     .contact_text {
+      max-width: 100%; 
+    }
+    .main__contact 
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
+      width: 100%; 
+    }
+    .main__contact .form input {
+      width: 100%; 
+      margin-bottom: 15px; 
+    }
+  }
+
+
+
+

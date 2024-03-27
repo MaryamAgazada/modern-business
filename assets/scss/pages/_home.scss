@@ -1,0 +1,380 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+// HERO
+.hero{
+    background-color: #212529;
+    max-width:100%;
+    min-height:580px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    object-fit: cover;
+
+.cards__hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .card__left{
+        padding: 0 24px;
+        .hero__title{
+            font-size: 48px;
+            margin: 0 0 8px;
+            line-height: 1.25;
+            max-width:589px;
+            min-height: 115px;
+        }
+        .hero__text{
+            font-size: 20px;
+            margin: 0 0 48px;
+            max-width: 589px;
+            min-height: 60px;
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .started{
+                padding: 8px 24px;
+                font-size: 20px;
+                border: 1px solid #0d6efd;
+                border-radius: 5px;
+                margin: 0 16px 0 0;
+                background-color: #0d6efd;
+            }
+            .learnMore{
+                padding: 8px 24px;
+                font-size: 20px;
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
+    .card__right{
+        .card__right__img{
+            max-width: 407px;
+            min-height: 271px;
+            border-radius: 5px;
+        }
+ 
+    }
+  
+}
+}
+@media only screen and (max-width:768px) {
+    .card__right{
+        .card__right__img{
+           display: none;
+        }
+ 
+    }
+
+  }
+// HERO END
+
+// BETTERWAY
+.betterWay{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  
+    .betterWay__title{
+        // padding: 24px 24px;
+        font-size: 32px;
+        min-height:384px;
+        max-width:589px ;
+        display: flex;
+        align-items: self-start;
+        justify-content:flex-start;
+        padding: 14px 100px;
+    }
+    .betterWay__featureds{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin:100px 0;
+
+        .betterWay__featured{
+            padding: 0 24px;
+            margin: 48px 0;
+            .featured__title{
+                font-size: 20px;
+                margin: 0 0 8px;
+               
+            }
+            .featured__text{
+                max-width: 315px;
+                min-height: 72px;
+            }
+            .betterWay__icon{
+                background-color: #0d6efd;
+                border: 1px solid #0d6efd;
+                border-radius: 5px;
+                color: white;
+                margin: 0 0 16px;
+                max-width: 48px;
+                min-height: 48px;
+                font-size:24px;
+           display: grid;
+           place-items: center;
+            }
+        }
+    }
+}
+// BETTERWAY END
+
+// WORKING START
+.working{
+    max-width: 100%;
+    min-height: 400px;
+    background-color: #f8f9fa;
+display: grid;
+place-items: center;
+    .working__text{
+        min-height: 144px;
+max-width: 589px; 
+margin: 48px 0 0px; 
+font-size: 24px;
+font-style: italic;
+line-height: 1.5;
+
+ }
+    .working__text__outhor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+        .working__text__outhor__img{
+         
+            margin:0 16px 0 0 ;
+img{
+    border-radius: 50%;
+}
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+    .betterWay{
+    display: flex;
+    flex-direction: column;
+    // width: 100%;
+    .betterWay__title{
+        min-height: 58px;
+        align-items:center;
+        justify-content: center;
+        display: flex;
+        margin: 48px 0;
+    }
+    .betterWay__featureds{
+        margin:1
+        0px 0;
+    }
+ 
+
+  }
+  .working{
+    width: 100%;
+    .working__text{
+        min-height:258px;
+    max-width:262px; 
+    
+      }
+  }
+  .ourBlog__card{
+    padding-bottom: 24px ;
+  }
+  .ourBlog__text{
+    height: 120px;
+   width: 262px;
+   margin: 0 auto;
+
+  }
+  
+}
+// WORKING END
+
+// OUR BLOG START
+.ourBlog{
+    width: 100%;
+    min-height: 1095px;
+    .ourBlog__title{
+        text-align: center;
+        margin: 48px 0 8px;
+        font-size: 32px;
+    }
+    .ourBlog__text{
+        margin: 0 auto 48px;
+        font-size: 20px;
+        color: #6c6d75;
+        min-height: 60px;
+        max-width: 498px;
+        display: flex;
+justify-content: center;
+align-items: center;
+       
+    }
+    .ourBlog__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    //   flex-wrap: wrap;
+        .ourBlog__card{
+            min-height: 490px;
+            max-width: 316px;
+            border: 1px solid #6c6d75;
+            border-radius: 5px;
+            margin: 0 24px;
+         
+           
+         
+            .ourBlog__card__img{
+                width:315px;
+                min-height: 190px;
+                border-radius: 5px;
+            }
+            .ourBlog__topic{
+                border: 1px solid #0d6efd;
+                background-color: #0d6efd;
+                border-radius: 0.375em;
+                padding: 0.35em 0.65em;
+                color: white;
+                min-height: 24px;
+                max-width: 48px;
+                font-size: 0.75em;
+                font-weight: 700;
+                text-align: center;
+                margin: 24px 1rem;
+            }
+            .ourBlog__card__title{
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                line-height: 1.2;
+                font-weight: 500;
+                padding:0 1rem;
+            }
+            .ourBlog__card__text{
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #2c2d34;
+                min-height: 72px;
+                max-width: 268px;
+                padding:0 1rem;
+            }
+            .ourBlog__text__outhor{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2.5rem 0 1rem 0;
+                min-height: 77px;
+                max-width: 316px;
+           
+                .ourBlog__text__outhor__img{
+                    margin:0 16px 0 0 ;
+        img{
+            border-radius: 50%;
+        }
+                }
+                .ourBlog__text__outhor__news{
+                    display: flex;
+             flex-direction: column;
+                    .ourBlog__text__outhor__news__name{
+                        font-weight: 700;
+                        font-size: 0.875rem;
+                        margin-bottom: 0.25rem;
+                    }
+                    .ourBlog__text__outhor__news__time{
+                        color: #6c757d !important;
+                    }
+                   
+                }
+
+            }
+        }
+    }
+}
+// @media only screen and (max-width:768px) {
+// .ourBlog__container{
+// flex-wrap: wrap;
+// display: flex;
+//     .ourBlog__card {
+//         height: 622px;
+//         width: 624px;
+   
+       
+//        }
+// }
+
+//   }
+
+// OUR BLOG END
+// NEWPRODUCTS START
+.newProducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d6efd;
+    color: white;
+    min-height: 162px;
+    max-width: 1044px;
+    margin: 100px auto 0;
+    padding: 48px;
+    border-radius: 5px;
+    .newProducts__texts{
+        margin-right:54px;
+        .newProducts__texts__title{
+            font-size: 28px;
+            font-weight: 700 !important;
+        }
+        .newProducts__texts__text{
+            font-size: 16px;
+            color: #ffffff80;
+            line-height: 2;
+        }
+    }
+
+    .newProducts__button__input{
+        display: flex;
+        input{
+            padding: 6px 12px;
+            border-radius: 5px 0 0 5px;
+            border: 1px solid white;
+            max-width: 254px;
+            // position: relative;
+            // left: 2px;
+
+        }
+        .button{
+            background-color: #0d6efd;
+            color: white;
+            border: 1px solid white;
+            padding: 6px 12px;
+            border-radius:0 5px 5px 0;
+            // position: relative;
+        }
+     
+    }
+    .newProducts__button__text{
+        color:#ffffff80 ;
+        font-size: 14px;
+      line-height:2;
+    }
+}
+
+
+// NEWPRODUCTS END
+
+@media only screen and (max-width:600px) {
+.newProducts{
+    display: flex;
+    flex-direction: column;
+}
+     
+    }
